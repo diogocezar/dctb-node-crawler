@@ -1,0 +1,24 @@
+{
+  "name": "dctb-crawler",
+  "version": "1.0.0",
+  "description": "Just a simple crawler in NodeJS",
+  "main": "crawler.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogocezar/dctb-crawler.git"
+  },
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogocezar/dctb-crawler/issues"
+  },
+  "homepage": "https://github.com/diogocezar/dctb-crawler#readme"
+}
