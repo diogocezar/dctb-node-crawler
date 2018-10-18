@@ -18,6 +18,10 @@ var Crawler = {
 				var rating = $(this).find('.imdbRating strong').text().trim();
 				console.log(title + ' - ' + rating);
 				Crawler.fs.appendFile('imdb.txt', title + ' - ' + rating + '\n');
+				
+				Crawler.fs.appendFile('imdb.txt', title + ' - ' + rating + '\n', (err) => {
+					if (err) console.log('Erro: ' + err);
+            			});
 			});
 		});
 	}
